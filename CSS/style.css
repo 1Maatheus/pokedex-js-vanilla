@@ -14,6 +14,11 @@ img {
   max-width: 100%;
 }
 
+@media (max-width: 420px) {
+  body {
+    background-image: linear-gradient(to bottom, #e1dfa7, #c6e2b0, #ace2bf, #99e0d0, #90dce0);
+  }
+}
 .normal {
   background-color: #999999;
   display: inline-block;
@@ -544,6 +549,7 @@ img {
   .pokemon-name {
     margin-top: 0.3em;
     font-size: 2em;
+    text-align: center;
   }
   .pokemon-info {
     padding: 1em 4em;

@@ -20,3 +20,16 @@ body {
 img {
   max-width: 100%;
 }
+
+@media (max-width: 420px) {
+  body {
+    background-image: linear-gradient(
+      to bottom,
+      #e1dfa7,
+      #c6e2b0,
+      #ace2bf,
+      #99e0d0,
+      #90dce0
+    );
+  }
+}
