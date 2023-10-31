@@ -1,6 +1,5 @@
 .pokemon-container {
   width: 100svw;
-  height: 100svh;
   margin-top: 2em;
   display: flex;
   justify-content: center;
@@ -174,7 +173,7 @@
 
   .pokemon-box {
     width: 90%;
-    height: min-content;
+    height: fit-content;
     grid-template-columns: none;
     grid-template-rows: 1fr 1fr;
   }
