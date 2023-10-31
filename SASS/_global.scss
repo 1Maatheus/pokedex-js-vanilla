@@ -5,15 +5,16 @@
 }
 
 body {
-  background-image: radial-gradient(
-    circle,
-    #676767,
-    #4d4d4d,
-    #343434,
-    #1d1d1d,
-    #000000
+  background-image: linear-gradient(
+    to right bottom,
+    #e1dfa7,
+    #c6e2b0,
+    #ace2bf,
+    #99e0d0,
+    #90dce0
   );
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 img {
