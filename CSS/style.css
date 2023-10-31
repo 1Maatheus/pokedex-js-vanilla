@@ -520,6 +520,11 @@ img {
   .pokemon-info .pokemon-weight span {
     font-size: 1em;
   }
+  .pokemon-pic {
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+  }
 }
 .pokemon-form {
   margin: 2em 0em;
