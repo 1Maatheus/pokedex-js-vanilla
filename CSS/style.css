@@ -16,146 +16,326 @@ img {
 
 .normal {
   background-color: #999999;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .fighting {
   background-color: #fea403;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .flying {
   background-color: #95cbfb;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .poison {
   background-color: #9951cd;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.4);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .ground {
   background-color: #aa783e;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .rock {
   background-color: #bbba88;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .bug {
   background-color: #a2a41d;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .ghost {
   background-color: #6c4270;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .steel {
   background-color: #6bb0d4;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .fire {
   background-color: #fd6233;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .water {
   background-color: #2d92fd;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .grass {
   background-color: #40c027;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .electric {
   background-color: #fcdb00;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .psychic {
   background-color: #ff607d;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .ice {
   background-color: #43d8fc;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .dragon {
   background-color: #5363d6;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .dark {
   background-color: #484848;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .fairy {
   background-color: #fdb3fe;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .normal-gradient {
   background-image: linear-gradient(to bottom, #999999, #a2a2a2, #aaaaaa, #b3b3b3, #bcbcbc);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .fighting-gradient {
   background-image: linear-gradient(to bottom, #fea403, #f6ac36, #eeb354, #e6b96f, #debf89);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .flying-gradient {
   background-image: linear-gradient(to bottom, #95cbfb, #94d4f9, #98dcf6, #a1e3f2, #aee9ee);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .poison-gradient {
   background-image: linear-gradient(to bottom, #9951cd, #9c69d5, #a17fdc, #a893e0, #b1a6e3);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .ground-gradient {
   background-image: linear-gradient(to bottom, #aa783e, #af8443, #b49049, #b89c4f, #bba957);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .rock-gradient {
   background-image: linear-gradient(to bottom, #bbba88, #c9c994, #d8d8a1, #e7e7ae, #f6f6bb);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .bug-gradient {
   background-image: linear-gradient(to bottom, #a2a41d, #a5af3d, #aaba58, #afc570, #b6cf88);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .ghost-gradient {
   background-image: linear-gradient(to bottom, #6c4270, #7a4884, #884f9a, #9457b1, #9f5fc9);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .steel-gradient {
   background-image: linear-gradient(to bottom, #6bb0d4, #6fb6d6, #73bcd8, #79c2da, #7fc8dc);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .fire-gradient {
   background-image: linear-gradient(to bottom, #fd6233, #f8693e, #f27049, #ec7753, #e57d5d);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .water-gradient {
   background-image: linear-gradient(to bottom, #2d92fd, #449cfd, #58a6fc, #6bb0fa, #7db9f9);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .grass-gradient {
   background-image: linear-gradient(to bottom, #40c027, #5aca44, #70d45c, #84dd73, #98e789);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .electric-gradient {
   background-image: linear-gradient(to bottom, #fcdb00, #f9df4c, #f6e273, #f3e596, #f0e8b7);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .psychic-gradient {
   background-image: linear-gradient(to bottom, #ff607d, #fe788f, #fb8da0, #f7a2b0, #f2b5c0);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .ice-gradient {
   background-image: linear-gradient(to bottom, #43d8fc, #64dbfa, #7ddef8, #91e1f6, #a4e4f4);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .dragon-gradient {
   background-image: linear-gradient(to bottom, #5363d6, #6573db, #7682e0, #8792e5, #98a2e9);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .dark-gradient {
   background-image: linear-gradient(to bottom, #484848, #555555, #626263, #6f6f71, #7d7d7f);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .fairy-gradient {
   background-image: linear-gradient(to bottom, #fdb3fe, #f8bcf8, #f2c5f3, #edceed, #e7d6e7);
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .pokemon-header {
@@ -207,13 +387,6 @@ img {
   box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.2);
 }
 
-.pokemon-details {
-  background-image: linear-gradient(to bottom, #fcdb00, #f9df4c, #f6e273, #f3e596, #f0e8b7);
-  padding: 1em 2em;
-  display: flex;
-  flex-direction: column;
-}
-
 .pokemon-number {
   display: flex;
   align-items: center;
@@ -234,15 +407,7 @@ img {
   margin-top: 0.3em;
   font-size: 2.2em;
   font-family: monospace;
-}
-.pokemon-name .pokemon-type {
-  display: inline-block;
-  background-color: #fcdb00;
-  padding: 1em;
-  margin-top: 0.4em;
-  border-radius: 6px;
-  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
-  font-size: 0.5em;
+  text-transform: capitalize;
 }
 
 .pokemon-info {
@@ -298,6 +463,16 @@ img {
   margin-left: 1em;
   margin-top: 1em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pokemon-pic {
+  width: 400px;
+  height: 400px;
+  margin-left: 30px;
+}
+
+.remove {
+  display: none;
 }
 
 @media (max-width: 420px) {

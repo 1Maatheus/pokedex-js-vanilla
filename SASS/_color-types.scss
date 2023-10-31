@@ -1,73 +1,199 @@
 .normal {
   background-color: #999999;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .fighting {
   background-color: #fea403;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .flying {
   background-color: #95cbfb;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .poison {
   background-color: #9951cd;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.4);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .ground {
   background-color: #aa783e;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .rock {
   background-color: #bbba88;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .bug {
   background-color: #a2a41d;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .ghost {
   background-color: #6c4270;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .steel {
   background-color: #6bb0d4;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .fire {
   background-color: #fd6233;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .water {
   background-color: #2d92fd;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .grass {
   background-color: #40c027;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .electric {
   background-color: #fcdb00;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .psychic {
   background-color: #ff607d;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .ice {
   background-color: #43d8fc;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .dragon {
   background-color: #5363d6;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .dark {
   background-color: #484848;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 .fairy {
   background-color: #fdb3fe;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
 //BG Gradient
@@ -81,6 +207,9 @@
     #b3b3b3,
     #bcbcbc
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .fighting-gradient {
@@ -92,6 +221,9 @@
     #e6b96f,
     #debf89
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .flying-gradient {
@@ -103,6 +235,9 @@
     #a1e3f2,
     #aee9ee
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .poison-gradient {
@@ -114,6 +249,9 @@
     #a893e0,
     #b1a6e3
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .ground-gradient {
@@ -125,6 +263,9 @@
     #b89c4f,
     #bba957
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .rock-gradient {
@@ -136,6 +277,9 @@
     #e7e7ae,
     #f6f6bb
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .bug-gradient {
@@ -147,6 +291,9 @@
     #afc570,
     #b6cf88
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .ghost-gradient {
@@ -158,6 +305,9 @@
     #9457b1,
     #9f5fc9
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .steel-gradient {
@@ -169,6 +319,9 @@
     #79c2da,
     #7fc8dc
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .fire-gradient {
@@ -180,6 +333,9 @@
     #ec7753,
     #e57d5d
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .water-gradient {
@@ -191,6 +347,9 @@
     #6bb0fa,
     #7db9f9
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .grass-gradient {
@@ -202,6 +361,9 @@
     #84dd73,
     #98e789
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .electric-gradient {
@@ -213,6 +375,9 @@
     #f3e596,
     #f0e8b7
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .psychic-gradient {
@@ -224,6 +389,9 @@
     #f7a2b0,
     #f2b5c0
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .ice-gradient {
@@ -235,6 +403,9 @@
     #91e1f6,
     #a4e4f4
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .dragon-gradient {
@@ -246,6 +417,9 @@
     #8792e5,
     #98a2e9
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .dark-gradient {
@@ -257,6 +431,9 @@
     #6f6f71,
     #7d7d7f
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .fairy-gradient {
@@ -268,4 +445,7 @@
     #edceed,
     #e7d6e7
   );
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
 }
