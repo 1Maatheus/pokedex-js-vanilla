@@ -8,7 +8,7 @@
 
 .pokemon-box {
   width: 55%;
-  height: 60%;
+  height: 55%;
   background-color: #fff;
   border-radius: 1em;
   display: grid;
@@ -71,7 +71,7 @@
 }
 
 .pokemon-info {
-  background-color: rgba(180, 175, 175, 0.267);
+  background-color: #b4afaf2c;
   display: flex;
   justify-content: space-around;
   padding: 1em 0em;
@@ -108,10 +108,23 @@
 }
 
 .division {
-  background-color: #c7c5c5;
+  background-color: #c7c5c5a9;
   width: 1px;
   height: 70px;
   display: block;
+}
+
+.pokemon-abilities {
+  padding: 1em 2em;
+  h1 {
+    font-weight: 300;
+    font-family: monospace;
+  }
+  .ability-paragraph {
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
 }
 
 @media (max-width: 420px) {
@@ -126,13 +139,13 @@
 
   .pokemon-box {
     width: 90%;
-    height: auto;
+    height: min-content;
     grid-template-columns: none;
     grid-template-rows: 1fr 1fr;
   }
 
   .pokemon-left-detail {
-    padding: 0 1em;
+    padding: 0em 1em;
     grid-row: 2;
   }
 
