@@ -9,16 +9,21 @@ const pokemonDetailsBG = document.querySelector(".pokemon-details");
 const pokemonHeight = document.querySelector(".height-span");
 const pokemonWeight = document.querySelector(".weight-span");
 const pokemonAbility = document.querySelector(".ability-paragraph");
+const pokemonSecondAbility = document.querySelector(
+  ".second-ability-paragraph"
+);
+const pokemonDiv = document.querySelector(".pokemon-box");
 
 const getPokemon = async () => {
   let pokemon = input.value.toLowerCase();
+  pokemonDiv.classList.add("show");
 
   const apiUrl = `https://pokeapi.co/api/v2/pokemon/${pokemon}`;
   const res = await fetch(apiUrl);
   const data = await res.json();
 
   pokemonName.innerHTML = data.name;
-  pokemonPic.innerHTML = `<img class="pokemon-pic" src="${data["sprites"]["versions"]["generation-v"]["black-white"]["animated"]["front_default"]}">`;
+  pokemonPic.innerHTML = `<img class="pokemon-pic slide-in-top" src="${data.sprites.other.dream_world.front_default}">`;
   pokemonNumber.innerHTML = data.order < 99 ? "0" + data.order : data.order;
   input.value = "";
 
@@ -38,8 +43,9 @@ const getPokemon = async () => {
   pokemonHeight.innerHTML = "0," + data.height + "m";
   pokemonWeight.innerHTML = data.weight + "kg";
 
-  pokemonAbility.innerHTML = data.abilities[0].ability.url;
+  pokemonAbility.innerHTML = data.abilities[0].ability.name;
   console.log(data);
+  pokemonSecondAbility.innerHTML = data.abilities[1].ability.name;
 };
 
 btn.addEventListener("click", () => {

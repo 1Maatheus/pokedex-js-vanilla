@@ -373,14 +373,30 @@ img {
   height: 55%;
   background-color: #fff;
   border-radius: 1em;
-  display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
+  display: none;
 }
 
+.show {
+  display: grid;
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 .pokemon-left-detail {
   padding: 0em 2em;
   align-self: center;
+  justify-self: center;
 }
 
 .pokemon-right-detail {
@@ -462,15 +478,41 @@ img {
 .pokemon-abilities .ability-paragraph {
   margin-left: 1em;
   margin-top: 1em;
+  padding: 1em;
+  border-radius: 8px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(126, 126, 126, 0.1294117647);
+}
+.pokemon-abilities .second-ability-paragraph {
+  margin-left: 1em;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(126, 126, 126, 0.1294117647);
 }
 
 .pokemon-pic {
   width: 400px;
   height: 400px;
-  margin-left: 30px;
 }
 
+.slide-in-top {
+  animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .remove {
   display: none;
 }
@@ -492,6 +534,7 @@ img {
   .pokemon-left-detail {
     padding: 0em 1em;
     grid-row: 2;
+    justify-self: normal;
   }
   .pokemon-number img {
     width: 70px;
@@ -524,6 +567,14 @@ img {
     width: 250px;
     height: 250px;
     margin-left: 30px;
+  }
+  .pokemon-abilities .ability-paragraph {
+    margin-top: 1em;
+    margin-left: 0em;
+  }
+  .pokemon-abilities .second-ability-paragraph {
+    margin-left: 0em;
+    margin-top: 1em;
   }
 }
 .pokemon-form {
