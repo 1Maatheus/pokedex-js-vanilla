@@ -534,7 +534,6 @@ img {
   .pokemon-left-detail {
     padding: 0em 1em;
     grid-row: 2;
-    justify-self: normal;
   }
   .pokemon-number img {
     width: 70px;
@@ -548,7 +547,8 @@ img {
     font-size: 2em;
   }
   .pokemon-info {
-    padding: 0.5em 0em;
+    padding: 1em 4em;
+    justify-content: space-between;
   }
   .pokemon-info .pokemon-height p {
     font-size: 1.5em;
