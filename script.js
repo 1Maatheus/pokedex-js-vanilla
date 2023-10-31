@@ -23,7 +23,7 @@ const getPokemon = async () => {
   const data = await res.json();
 
   pokemonName.innerHTML = data.name;
-  pokemonPic.innerHTML = `<img class="pokemon-pic slide-in-top" src="${data.sprites.other.dream_world.front_default}">`;
+  pokemonPic.innerHTML = `<img class="pokemon-pic slide-in-top" src="${data.sprites.other.dream_world.front_default}" alt="Pokemon picture">`;
   pokemonNumber.innerHTML = data.order < 99 ? "0" + data.order : data.order;
   input.value = "";
 
