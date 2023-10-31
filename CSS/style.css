@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: radial-gradient(circle, #676767, #4d4d4d, #343434, #1d1d1d, #000000);
+  background-attachment: fixed;
+}
+
+img {
+  max-width: 100%;
+}
+
 .normal {
   background-color: #999999;
 }
@@ -74,6 +83,29 @@
 
 .fairy {
   background-color: #fdb3fe;
+}
+
+.pokemon-header {
+  padding: 1em;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.pokemon-header img {
+  width: 600px;
+  height: 190px;
+}
+
+@media (max-width: 420px) {
+  .pokemon-header {
+    padding: 0em 1em;
+    margin-top: 1em;
+  }
+  .pokemon-header img {
+    width: 300px;
+    height: 120px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
