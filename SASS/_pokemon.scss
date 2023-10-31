@@ -12,3 +12,18 @@
   background-color: #fff;
   border-radius: 1em;
 }
+
+@media (max-width: 420px) {
+  body {
+    overflow-y: auto;
+  }
+  .pokemon-container {
+    margin-top: -2em;
+    margin-bottom: 1em;
+  }
+
+  .pokemon-box {
+    width: 90%;
+    height: auto;
+  }
+}
