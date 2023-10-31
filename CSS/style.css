@@ -86,6 +86,78 @@ img {
   background-color: #fdb3fe;
 }
 
+.normal-gradient {
+  background-image: linear-gradient(to bottom, #999999, #a2a2a2, #aaaaaa, #b3b3b3, #bcbcbc);
+}
+
+.fighting-gradient {
+  background-image: linear-gradient(to bottom, #fea403, #f6ac36, #eeb354, #e6b96f, #debf89);
+}
+
+.flying-gradient {
+  background-image: linear-gradient(to bottom, #95cbfb, #94d4f9, #98dcf6, #a1e3f2, #aee9ee);
+}
+
+.poison-gradient {
+  background-image: linear-gradient(to bottom, #9951cd, #9c69d5, #a17fdc, #a893e0, #b1a6e3);
+}
+
+.ground-gradient {
+  background-image: linear-gradient(to bottom, #aa783e, #af8443, #b49049, #b89c4f, #bba957);
+}
+
+.rock-gradient {
+  background-image: linear-gradient(to bottom, #bbba88, #c9c994, #d8d8a1, #e7e7ae, #f6f6bb);
+}
+
+.bug-gradient {
+  background-image: linear-gradient(to bottom, #a2a41d, #a5af3d, #aaba58, #afc570, #b6cf88);
+}
+
+.ghost-gradient {
+  background-image: linear-gradient(to bottom, #6c4270, #7a4884, #884f9a, #9457b1, #9f5fc9);
+}
+
+.steel-gradient {
+  background-image: linear-gradient(to bottom, #6bb0d4, #6fb6d6, #73bcd8, #79c2da, #7fc8dc);
+}
+
+.fire-gradient {
+  background-image: linear-gradient(to bottom, #fd6233, #f8693e, #f27049, #ec7753, #e57d5d);
+}
+
+.water-gradient {
+  background-image: linear-gradient(to bottom, #2d92fd, #449cfd, #58a6fc, #6bb0fa, #7db9f9);
+}
+
+.grass-gradient {
+  background-image: linear-gradient(to bottom, #40c027, #5aca44, #70d45c, #84dd73, #98e789);
+}
+
+.electric-gradient {
+  background-image: linear-gradient(to bottom, #fcdb00, #f9df4c, #f6e273, #f3e596, #f0e8b7);
+}
+
+.psychic-gradient {
+  background-image: linear-gradient(to bottom, #ff607d, #fe788f, #fb8da0, #f7a2b0, #f2b5c0);
+}
+
+.ice-gradient {
+  background-image: linear-gradient(to bottom, #43d8fc, #64dbfa, #7ddef8, #91e1f6, #a4e4f4);
+}
+
+.dragon-gradient {
+  background-image: linear-gradient(to bottom, #5363d6, #6573db, #7682e0, #8792e5, #98a2e9);
+}
+
+.dark-gradient {
+  background-image: linear-gradient(to bottom, #484848, #555555, #626263, #6f6f71, #7d7d7f);
+}
+
+.fairy-gradient {
+  background-image: linear-gradient(to bottom, #fdb3fe, #f8bcf8, #f2c5f3, #edceed, #e7d6e7);
+}
+
 .pokemon-header {
   padding: 1em;
   max-width: 1300px;
