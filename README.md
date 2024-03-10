@@ -8,7 +8,7 @@
 
 <p>Pokedex criado em JavaScript Vanilla. Nele você consegue procurar por algum pokemon específico, inserindo o nome no input. Após isso, um card aparece com o nome do pokemon pesquisado, a foto e suas características.</p>
 
-Acesse o app clicando [AQUI](https://www.1maatheus.github.io/pokedex-js-vanilla).
+Acesse o app clicando [AQUI](https://1maatheus.github.io/pokedex-js-vanilla).
 
 <br>
 
